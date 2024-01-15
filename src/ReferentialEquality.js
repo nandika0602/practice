@@ -15,6 +15,7 @@ const ReferentialEquality = () => {
     return { age, name };
     //if we want to compare/do with any objects/arrays based on previous value, should use useMemo, otherwise on every render it'll give a new reference
     // Also, the useEffect will be called on every render, even it's own dependency didn't change
+    //there is no use of this useEffect
   }, [age, name]);
 
   useEffect(() => {

@@ -8,9 +8,10 @@ const FunctionSetter = () => {
   const adjust = (val) => {
     /****************************************************************/
     // 0 + 1;
-    // setCount(count + val);
+    //this is scheduled and will update in future
+    // setCount(count + val); //1
     // 0 + 1; //same here
-    // setCount(count + val);
+    // setCount(count + val); //2 exp:2
 
     /****************************************************************/
     //better to go with this, if we have to chnage our state var based on pre state

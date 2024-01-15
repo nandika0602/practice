@@ -10,6 +10,10 @@ const UpdateImmediate = () => {
   };
   //not to use more useEffects
   useEffect(() => {
+    //1st page renders
+    //2nd after render this fn will get called
+    //3rd react will tell to browser that dom has changes to update
+    //4th browser will update that
     console.log(count);
   }, [count]);
 
