@@ -1,3 +1,17 @@
+1. useState functional update
+   -2 lines updating same thing
+   -not updating immediately
+2. white screen problem
+3. how to update specific object property
+4. how to change all i/p with a single onChange
+5. useState vs useReducer
+6. cleanup function
+   -aborting fetch request
+7. react derived state
+   -unnecessary useEffect
+8. using state when no need of state(ref)
+9. referential equality(useMemo)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
